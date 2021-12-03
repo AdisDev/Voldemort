@@ -1,5 +1,6 @@
 # Voldemort
  idk some ddos software to troll some kids minecraft server. Note: made for educational purposes only!!!
+ 
  target: idk some server
  
  port: port of the server for example 80, 5000, 0 etc.
