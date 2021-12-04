@@ -3,7 +3,7 @@
  
  target: idk some server
  
- port: port of the server for example 80, 5000, 0, 25565(Minecraft Server Port Number), etc.
+ port: port of the server for example 80, 5000, 0, 25565(Minecraft Java Server Port Number), etc.
  
  packet/s: how many you want to send
  
