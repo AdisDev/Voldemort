@@ -1,6 +1,6 @@
 #MIT-License
 #Copyright (c) 2021 AdisDev
-#Voldemort®
+#Voldemort 0.1v
 
 
 import socket, requests
