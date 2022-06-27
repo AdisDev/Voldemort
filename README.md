@@ -1,4 +1,7 @@
 # Voldemort
+
+new version: https://github.com/AdisDev/Voldemort2v
+
  idk some ddos software to troll some kids minecraft server. Note: made for educational purposes only!!!
  
  target: idk some server
